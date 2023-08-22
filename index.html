@@ -15,10 +15,36 @@
         <button type="button">Nova imagem</button>
     </header>
     <form>
-        <input type="url" placeholder="URL da imagem" required>
+        <input id="url-new-pic" type="url" placeholder="URL da imagem" required>
         <button id="button-add" type="submit">Adicionar</button>
         <button id="button-cancel" type="reset">Cancelar</button>
     </form>
+    <ul>
+        <li>
+            <img src="./images/foto1.jpg" alt="Pintura de um gato">
+            <div class="overlay-image-link">
+                <a href="./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto2.jpg" alt="Pintura de um flamingo">
+            <div class="overlay-image-link">
+                <a href="./images/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto3.jpg" alt="Pintura de cachorros">
+            <div class="overlay-image-link">
+                <a href="./images/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="./script.js"></script>
 </body>

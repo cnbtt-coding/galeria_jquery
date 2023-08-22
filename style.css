@@ -70,3 +70,55 @@ button {
     background-color: rgb(241, 76, 76);
 }
 
+/* Body > ul style */
+
+ul {
+    max-width: 1200px;
+    margin: 24px auto;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 30%;
+    list-style: none;
+    position: relative;
+    max-height: 320px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+ul li img {
+    width: 360px;
+    height: 250px;
+}
+
+.overlay-image-link {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 70%);
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+ul li:hover .overlay-image-link {
+    opacity: 1;
+    transition: all .55s ease;
+    cursor: pointer;
+}
+
+.overlay-image-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.overlay-image-link a:hover {
+    border-bottom: 1px solid #fff;
+}
+
